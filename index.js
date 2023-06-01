@@ -1,10 +1,12 @@
-/*****************************************************\
-*
-*
-*
-*
-* 
-******************************************************/
+/********************************************************\
+* Author: Juwan Jeremiah                                 *
+* Date: 06/01/2023                                       *
+* Environment: VSCODE                                    *
+* Project Title: Basketball score board web app          *
+* Description: Home button increases overall score when  *
+*              triggered. Away buttons increases overall *
+*              score when triggered.                     *
+\********************************************************/
 
 let b1= document.getElementById("homeScore")
 let b2= document.getElementById("guestScore")
@@ -26,7 +28,7 @@ function homeIncrement3(){
     count1 +=3
     b1.textContent=count1
 }
-//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////
 
 //funcions to increment the guest score
 function guestIncrement1(){
@@ -43,4 +45,4 @@ function guestIncrement3(){
     count2 +=3
     b2.textContent=count2
 }
-//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////
